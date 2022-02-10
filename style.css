@@ -1,0 +1,182 @@
+* {
+    font-family: 'Spartan', sans-serif;
+    letter-spacing: -1px;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+    color: #1F2937;
+    
+}
+
+h3 {
+    font-size: 24px;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+header {
+    color: #F9FAF8;
+    display: flex;
+    background-color: #1F2937;
+    padding: 20px 300px 10px 300px;
+}
+
+.logo {
+    flex: 1;
+    margin-left: 40px;
+}
+
+nav ul {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: flex-end;
+}
+
+li a {
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px; 
+    color: #F9FAF8;
+}
+
+li {
+    list-style-type: none;
+    width: 150px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+.segundoContenedor{
+    color: #F9FAF8;
+    background-color: #1F2937;
+    display: flex;
+    padding: 150px 300px 150px 300px;
+
+}
+
+.contenedorSuperiorIzquierdo {
+    flex-grow: 1;
+    width: 50%;
+    margin: auto;
+    padding: 0 40px 0 40px;
+}
+
+.contenedorSuperiorIzquierdo h1 {
+    margin-bottom: 10px;
+}
+
+.contenedorSuperiorDerecho {
+    flex-grow: 1;
+    width: 50%;
+    background-color: #7a7f8a;
+    display: flex;
+    padding: 0 40px 0 40px;
+}
+
+.contenedorSuperiorDerecho p {
+    margin: auto;
+    background-color: #7a7f8a;
+}
+
+button {
+    border-radius: 8px;
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #F9FAF8;
+}
+
+.tercerContenedor {
+    color: #1F2937;
+    padding: 60px 300px 80px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorGrupoImagenes {
+    display: flex;
+    padding: 30px 0px 30px 0px;
+}
+
+.contenedorImagenTexto {
+    width: 200px;
+    margin: 20px;
+}
+
+.contenedorImagenTexto p {
+    text-align: center;
+}
+
+.contenedorImagenPequena {
+    width: 180px;
+    height: 180px;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #3882F6;
+    margin-bottom: 20px;
+}
+
+.cuartoContenedor {
+    padding: 150px 300px 120px 300px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+#quoteAutor {
+    font-size: 20px;
+    padding: 20px;
+    margin-right: 0px;
+    align-self: flex-end;
+}
+
+.quintoContenedor {
+    margin: 100px 200px 120px 200px; 
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    padding: 60px 150px 60px 150px;
+    color: #E5E7EB;
+    border-radius: 20px;
+}
+
+.quintoContenedor button {
+    border: solid;
+    border-color: #E5E7EB;
+    justify-self: center;
+}
+
+.quintoContenedor div {
+    flex: 1.5; 
+}
+
+footer {
+    padding: 50px 300px 50px 300px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+}
+
+
+
